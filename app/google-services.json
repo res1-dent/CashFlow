@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1000719482291",
+    "project_id": "cashflow-81101",
+    "storage_bucket": "cashflow-81101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000719482291:android:fb481c0e1d0cd98dc15fc6",
+        "android_client_info": {
+          "package_name": "ru.hometech.cashflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6V2kFtFtVF3jwZQXv9B2GKBkvCWkYVHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000719482291:android:65e5555eb11d4168c15fc6",
+        "android_client_info": {
+          "package_name": "ru.hometech.cashflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6V2kFtFtVF3jwZQXv9B2GKBkvCWkYVHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
