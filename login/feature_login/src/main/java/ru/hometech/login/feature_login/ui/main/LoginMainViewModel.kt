@@ -34,7 +34,6 @@ sealed class LoginIntent : BaseIntent() {
 @HiltViewModel
 class LoginMainViewModel @Inject constructor(
     private val userManager: UserManager,
-    @ValidatorKey(Step.PIN) private val pinValidator: DataValidator
 ) : BaseViewModel<LoginViewState, LoginSideEffect, LoginIntent>(
     LoginViewState()
 ) {

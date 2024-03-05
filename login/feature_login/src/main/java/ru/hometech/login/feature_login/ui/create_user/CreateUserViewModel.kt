@@ -23,9 +23,7 @@ data class CreateUserViewState(
     val stepViewState: StepViewState? = null
 ) : BaseViewState()
 
-
 data class UserCreatedSideEffect(val message: String) : BaseSideEffect()
-
 
 sealed class CreateUserIntent : BaseIntent() {
     data object IncStep : CreateUserIntent()
@@ -60,9 +58,11 @@ class CreateUserViewModel @Inject constructor(
             CreateUserIntent.DecStep -> {
                 stepManager.moveToPrevStep()
             }
+
             CreateUserIntent.IncStep -> {
                 stepManager.moveToNextStep()
             }
+
             is CreateUserIntent.UpdateName -> {
                 stepManager.setStepData(Step.NAME, intent.name)
                 stepManager.setStepData(Step.FINAL, intent.name)

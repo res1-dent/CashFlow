@@ -35,7 +35,7 @@ class LoginModule {
 
     @Provides
     @ViewModelScoped
-    @[IntoMap ValidatorKey(Step.NAME)]
+    @[IntoMap ValidatorKey(Step.PIN)]
     fun providePinValidator(): DataValidator {
         return PinValidator()
     }
